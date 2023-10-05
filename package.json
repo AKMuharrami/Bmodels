@@ -9,8 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@formspree/react": "^2.5.1",
+    "@mdi/js": "^7.2.96",
+    "@mdi/react": "^1.6.1",
+    "@mui/icons-material": "^5.14.3",
+    "@mui/material": "^5.14.5",
+    "framer-motion": "^10.16.0",
     "next": "13.4.16",
+    "nodemailer": "^6.9.5",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-responsive": "^9.0.2",
+    "react-type-animation": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.6.0",
+    "typescript": "5.2.2"
   }
 }
