@@ -31,8 +31,8 @@ export default function ContactForm() {
         phone: {country_code: 965, number: 51234567}
       },
       source: {id: 'src_all'},
-      post: {url: 'http://localhost:3000/products/0'},
-      redirect: {url: 'http://localhost:3000/products'}
+      post: {url: 'https://kiwi-14da.vercel.app/products/0'},
+      redirect: {url: 'https://kiwi-14da.vercel.app/products/'}
     })
   };
     const style = {
