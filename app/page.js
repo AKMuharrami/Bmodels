@@ -1,8 +1,8 @@
 import ResponsiveAppBar from './menubar';
 import Homee from "./home";
 export const metadata = {
-  title: "Omani Web Developer",
-  description: "Experienced In HTML CSS Javascript React, ready to design your proffesional website",
+  title: "KIWI Ceramics",
+  description: "KIWI is an omani owned business focused on creating customer-talored ceramic cups",
   alternates: {
     canonical: '/'
   }

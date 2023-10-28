@@ -20,7 +20,7 @@ export default function Ateamm() {
           </Helmet> */}
         <div style={{background: '#0B0E13', width: "100vw", paddingBottom:'50px', zIndex:-1, height:'8vh', direction:'rtl'}}></div>
             {isDesktopOrLaptop &&<div style={{display:'flex', justifyContent:'space-between', background:'#323136', height:'35vh'}}>
-            <img src="https://canvas-generations-v1.s3.us-west-2.amazonaws.com/2423baeb-ceab-4d81-8830-d4a4cb3c8bf4.png" alt=""></img>
+            {/* <img src="https://canvas-generations-v1.s3.us-west-2.amazonaws.com/2423baeb-ceab-4d81-8830-d4a4cb3c8bf4.png" alt=""></img>
             <motion.div
             initial={{ y: -10, opacity: 0 }}
             animate={{ y: -20, opacity: 1 }}
@@ -36,10 +36,10 @@ export default function Ateamm() {
                     <button style={{background:'rgb(255, 255, 255, 0)', border:'0', }}><h3 style={{background:'#F4E6C3',borderRadius:'50px', fontSize:"18px", height:'7vh',width:'15vw',textAlign:'center',lineHeight:3}}>Various related libraries</h3></button>
                      </div>
             </motion.div>
-                    <br></br>
+                    <br></br> */}
             </div>}
             {isTabletOrMobile &&<div style={{display:'flex', justifyContent:'space-between', background:'#323136', height:'20vh'}}>
-            <img src="https://canvas-generations-v1.s3.us-west-2.amazonaws.com/2423baeb-ceab-4d81-8830-d4a4cb3c8bf4.png"  alt="" style={{width:'28vw', objectFit:'cover'}}></img>
+            {/* <img src="https://canvas-generations-v1.s3.us-west-2.amazonaws.com/2423baeb-ceab-4d81-8830-d4a4cb3c8bf4.png"  alt="" style={{width:'28vw', objectFit:'cover'}}></img>
             <motion.div
             initial={{ y: -10, opacity: 0 }}
             animate={{ y: -20, opacity: 1 }}
@@ -55,6 +55,6 @@ export default function Ateamm() {
                     <button style={{background:'rgb(255, 255, 255, 0)', border:'0', }}><h3 style={{background:'#F4E6C3',borderRadius:'50px', fontSize:"7px", height:'2vh',width:'13vw',textAlign:'center',lineHeight:2.2}}>Related libraries</h3></button>
                      </div>
             </motion.div>
-                    <br></br>
+                    <br></br> */}
             </div>}
     </div>)}

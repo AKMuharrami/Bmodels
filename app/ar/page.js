@@ -1,7 +1,7 @@
 import Ahomee from "./ahome";
 export const metadata = {
-  title: "مطور مواقع عماني",
-  description: "خبير في HTML CSS Javascript React, وأنا جاهز -بفضل الله تعالى- لتصميم موقعك الاحترافي",
+  title: "كيوي للسيراميك",
+  description: "...",
   alternates: {
     canonical: '/ar'
   }

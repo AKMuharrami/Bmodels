@@ -89,11 +89,11 @@ export default function ContactForm() {
                             <div style={{display:'flex', justifyContent:'center'}}>
                                 <input id='Prod' type="hidden" name="Prod" value="1" style={{marginRight:'3vw', height:'2.5vh'}}></input>
                                 <label for="Name" style={{color:'white', fontSize:'125%'}}>Name </label>
-                                <input id='Name' type="text" name="Name" style={{marginRight:'3vw', height:'2.5vh', marginLeft:'1vw'}}></input>
+                                <input id='Name' type="text" required name="Name" style={{marginRight:'3vw', height:'2.5vh', marginLeft:'1vw'}}></input>
                                 <label for='Tel' style={{color:'white', fontSize:'125%'}}>Telephone </label>
-                                <input id='Tel' type="tel" name="Tel" style={{marginRight:'3vw', marginLeft:'1vw'}}></input>
+                                <input id='Tel' required type="tel" name="Tel" style={{marginRight:'3vw', marginLeft:'1vw'}}></input>
                                 <label for="Email" style={{color:'white', fontSize:'125%'}}>Email </label>
-                                <input id="Email" name="Email" type='email' style={{marginRight:'3vw', marginLeft:'1vw'}}></input>
+                                <input id="Email" required name="Email" type='email' style={{marginRight:'3vw', marginLeft:'1vw'}}></input>
                             </div>
                             <br></br>
                             <br></br>
@@ -101,13 +101,13 @@ export default function ContactForm() {
                             <label For="Gloc" style={{color:'white', fontSize:'125%'}}>Google Maps Location link (if available) </label>
                             <input id="Gloc" name="Gloc" type="url" style={{ marginRight:'3vw',height:'2.5vh', marginLeft:'1vw'}}></input>
                             <label For='City' style={{color:'white', fontSize:'125%'}}>City </label>
-                            <input id='City' name="City" type='text' style={{marginRight:'3vw', height:'2.5vh', marginLeft:'1vw'}}></input>
+                            <input id='City' name="City" required type='text' style={{marginRight:'3vw', height:'2.5vh', marginLeft:'1vw'}}></input>
                             </div>
                             <br></br>
                             <br></br>
                             <div style={{display:'flex', justifyContent:'center'}}>
                             <label For="Town" style={{color:'white', fontSize:'125%'}}>Town </label>
-                            <input type='text' name="Town" id='Town' style={{marginRight:'3vw', marginLeft:'1vw'}}></input>
+                            <input type='text' required  name="Town" id='Town' style={{marginRight:'3vw', marginLeft:'1vw'}}></input>
                             <label For='POC' style={{color:'white', fontSize:'125%'}}>Place of interest 
                             (near) </label>
                             <input id='POC' name="POC" type='text' style={{marginRight:'3vw', marginLeft:'1vw'}} ></input>
@@ -130,9 +130,9 @@ export default function ContactForm() {
                             <div style={{display:'flex', justifyContent:'space-evenly'}}>
                                 <input id='Prod' type="hidden" name="Prod" value="1" style={{marginRight:'3vw', height:'2.5vh'}}></input>
                                 <label for="Name" style={{color:'white', fontSize:'100%'}}>Name </label>
-                                <input id='Name' type="text" name="Name" style={{marginRight:'3vw', height:'2vh', width:'25vw', marginLeft:'1vw'}}></input>
+                                <input id='Name' type="text" required name="Name" style={{marginRight:'3vw', height:'2vh', width:'25vw', marginLeft:'1vw'}}></input>
                                 <label for='Tel' style={{color:'white', fontSize:'100%'}}>Telephone </label>
-                                <input id='Tel' type="tel" name="Tel" style={{marginRight:'3vw', width:'25vw', marginLeft:'1vw'}}></input>
+                                <input id='Tel' required type="tel" name="Tel" style={{marginRight:'3vw', width:'25vw', marginLeft:'1vw'}}></input>
 
                             </div>
                             <br></br>
@@ -140,9 +140,9 @@ export default function ContactForm() {
                             <label for="Email" style={{color:'white', fontSize:'100%'}}>Email </label>
                             <input id="Email" name="Email" type='email'style={{marginRight:'3vw', height:'2vh', width:'25vw', marginLeft:'1vw'}}></input>
                             <label For='City' style={{color:'white', fontSize:'100%'}}>  City </label>
-                            <input id='City' name="City" type='text' style={{marginRight:'3vw', height:'2vh', width:'11vw', marginLeft:'1vw'}}></input>
+                            <input id='City' required name="City" type='text' style={{marginRight:'3vw', height:'2vh', width:'11vw', marginLeft:'1vw'}}></input>
                             <label For="Town" style={{color:'white', fontSize:'100%'}}>Town </label>
-                            <input type='text' name="Town" id='Town' style={{marginRight:'3vw', height:'2vh', width:'11vw', marginLeft:'1vw'}}></input>
+                            <input type='text' required name="Town" id='Town' style={{marginRight:'3vw', height:'2vh', width:'11vw', marginLeft:'1vw'}}></input>
                             </div>
                             <br></br>
                             <div style={{display:'flex',justifyContent:'center'}}>
