@@ -1,6 +1,5 @@
 "use client"
 import { useMediaQuery } from "react-responsive";
-import "./a.css"
 import {  useRef} from 'react'
 import {motion, useScroll, Variants} from 'framer-motion'
 import  {TypeAnimation} from 'react-type-animation'
