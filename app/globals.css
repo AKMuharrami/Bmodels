@@ -189,7 +189,7 @@ circle {
 #pul2 {
   display: flex;
   list-style: none;
-  height: 150px;
+  height: 175px;
   overflow-x: scroll;
   padding: 20px 10px;
   flex: 0 0 600px;

@@ -138,7 +138,7 @@ export default function Ahomee() {
                 {isTabletOrMobile && <motion.div
 
                 className={styles.center}
-                style={{marginTop:'-9%', marginBottom:'-5%'}}
+                style={{marginTop:'-5%', marginBottom:'-5%'}}
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{
@@ -174,20 +174,20 @@ export default function Ahomee() {
                 variants={cardVariants}
                 style={{fontSize:'20px',textAlign:"center", color:"white",textShadow: '1px 1px 7px rgb(255 30 160 / 50%)', WebkitTextStroke: '1px 0b0e13' }}> انقر لتصفح جميع المشاريع</motion.h2></a>
       {isDesktopOrLaptop &&<ul id='pul1' ref={ref} style={{marginTop:'0%', direction:'rtl', marginBottom:'7%'}} >
-        <a className={styles.card2} href="/products/1" style={{display:'flex'}}><Image width={560} src={car1} alt=''></Image></a>
-        <a className={styles.card2} href="/products/2" style={{display:'flex'}}><Image width={560} src={car2} alt=''></Image></a>
-        <a className={styles.card2} href="/products/3" style={{display:'flex'}}><Image width={560} src={airplane1} alt=''></Image></a>
-        <a className={styles.card2} href="/products/4" style={{display:'flex'}}><Image width={560} src={rocket} alt=''></Image></a>
-        <a className={styles.card2} href="/products/5" style={{display:'flex'}}><Image width={560} src={House1} alt=''></Image></a>
+        <a className={styles.card2} href="/products/model/Acar1" style={{display:'flex'}}><Image width={560} src={car1} alt=''></Image></a>
+        <a className={styles.card2} href="/products/model/Acar2" style={{display:'flex'}}><Image width={560} src={car2} alt=''></Image></a>
+        <a className={styles.card2} href="/products/model/AAirp1" style={{display:'flex'}}><Image width={560} src={airplane1} alt=''></Image></a>
+        <a className={styles.card2} href="/products/model/ARoc1" style={{display:'flex'}}><Image width={560} src={rocket} alt=''></Image></a>
+        <a className={styles.card2} href="/products/model/House" style={{display:'flex'}}><Image width={560} src={House1} alt=''></Image></a>
         {/* <li id='pli' style={{display:'flex', background:'#FCC77E'}}><img src='https://img.freepik.com/premium-photo/amazing-world-with-books-big-sun-background-generative-ai_58409-38729.jpg?w=1800' alt='' ></img><h1 style={{ color:'black'}}>One cannot walk towards a destination <br></br>except by having a guide that shows him the general view of the path. And that is exactly the mission of Holy Quran and the <br></br>Messanger Mohammed peace be upon him which this book has bee sent unto. It contians the stories of the past nations as well as the guidelines that should be followed etc. </h1></li>
         <li id='pli' style={{display:'flex', background:'#F5DF89'}}><img src='https://previews.123rf.com/images/summertime72/summertime722303/summertime72230300717/200999052-ai-generative-midjourney-illustration-of-a-fantasy-stairway-to-heaven.jpg' alt='' ></img><h1 style={{ color:'black'}}>A human by nature goes through various types of feeling as he walks upon his path to god. So without having signs at place that makes him at ease knowing that he is upon the truth he may not be able to gather his strength to continue on this path. Not mentioning that there are ranks that vary between the beleivers, and for one to climb them there has to exist a criteria by which he can Identify them. And on this path exists various milestones that could be identified. </h1></li> */}
       </ul>}
-      {isTabletOrMobile &&<ul id='pul2' ref={ref} style={{marginTop:'-4%', direction:'rtl', marginBottom:'7%'}} >
-        <a className={styles.card2} href="/products/1" style={{display:'flex'}}><Image width={210} src={car1} alt=''></Image></a>
-        <a className={styles.card2} href="/products/2" style={{display:'flex'}}><Image width={210} src={car2} alt=''></Image></a>
-        <a className={styles.card2} href="/products/3" style={{display:'flex'}}><Image width={210} src={airplane1} alt=''></Image></a>
-        <a className={styles.card2} href="/products/4" style={{display:'flex'}}><Image width={210} src={rocket} alt=''></Image></a>
-        <a className={styles.card2} href="/products/5" style={{display:'flex'}}><Image width={210} src={House1} alt=''></Image></a>
+      {isTabletOrMobile &&<ul id='pul2' ref={ref} style={{marginTop:'-1%', direction:'rtl', marginBottom:'7%'}} >
+        <a className={styles.card2} href="/products/model/Acar1" style={{display:'flex'}}><Image width={240} src={car1} alt=''></Image></a>
+        <a className={styles.card2} href="/products/model/Acar2" style={{display:'flex'}}><Image width={230} src={car2} alt=''></Image></a>
+        <a className={styles.card2} href="/products/model/AAirp1" style={{display:'flex'}}><Image width={230} src={airplane1} alt=''></Image></a>
+        <a className={styles.card2} href="/products/model/ARoc1" style={{display:'flex'}}><Image width={240} src={rocket} alt=''></Image></a>
+        <a className={styles.card2} href="/products/model/House" style={{display:'flex'}}><Image width={240} src={House1} alt=''></Image></a>
         {/* <li id='pli' style={{display:'flex', background:'#FCC77E'}}><img src='https://img.freepik.com/premium-photo/amazing-world-with-books-big-sun-background-generative-ai_58409-38729.jpg?w=1800' alt='' ></img><h1 style={{ color:'black'}}>One cannot walk towards a destination <br></br>except by having a guide that shows him the general view of the path. And that is exactly the mission of Holy Quran and the <br></br>Messanger Mohammed peace be upon him which this book has bee sent unto. It contians the stories of the past nations as well as the guidelines that should be followed etc. </h1></li>
         <li id='pli' style={{display:'flex', background:'#F5DF89'}}><img src='https://previews.123rf.com/images/summertime72/summertime722303/summertime72230300717/200999052-ai-generative-midjourney-illustration-of-a-fantasy-stairway-to-heaven.jpg' alt='' ></img><h1 style={{ color:'black'}}>A human by nature goes through various types of feeling as he walks upon his path to god. So without having signs at place that makes him at ease knowing that he is upon the truth he may not be able to gather his strength to continue on this path. Not mentioning that there are ranks that vary between the beleivers, and for one to climb them there has to exist a criteria by which he can Identify them. And on this path exists various milestones that could be identified. </h1></li> */}
       </ul>}
