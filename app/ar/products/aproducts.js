@@ -409,25 +409,25 @@ let mproductslist6 = mproducts6.map((product) => {
                     delay: .5,
                     ease: [0, 0.71, 0.2, 1.01]}}
                     style={{ }} >
-    <div style={{display:'flex', justifyContent:'space-around', marginLeft:'9vw', direction:'rtl'}}>
+    <div style={{display:'flex', justifyContent:'space-around', marginRight:'4vw', direction:'rtl'}}>
         {mproductslist}
     </div>
-    <div style={{display:'flex', justifyContent:'space-around', marginLeft:'9vw', marginTop:'4vh', direction:'rtl'}}>
+    <div style={{display:'flex', justifyContent:'space-around', marginRight:'4vw', marginTop:'-5vh', direction:'rtl'}}>
         {mproductslist1}
     </div>
-    <div style={{display:'flex', justifyContent:'space-around', marginLeft:'9vw',marginTop:'4vh', direction:'rtl'}}>
+    <div style={{display:'flex', justifyContent:'space-around', marginRight:'4vw',marginTop:'-5vh', direction:'rtl'}}>
         {mproductslist2}
     </div>
-    <div style={{display:'flex', justifyContent:'space-around', marginLeft:'9vw',marginTop:'4vh', direction:'rtl'}}>
+    <div style={{display:'flex', justifyContent:'space-around', marginRight:'4vw',marginTop:'-5vh', direction:'rtl'}}>
         {mproductslist3}
     </div>
-    <div style={{display:'flex', justifyContent:'space-around', marginLeft:'9vw',marginTop:'4vh', direction:'rtl'}}>
+    <div style={{display:'flex', justifyContent:'space-around', marginRight:'4vw',marginTop:'-5vh', direction:'rtl'}}>
         {mproductslist4}
     </div>
-    <div style={{display:'flex', justifyContent:'space-around', marginLeft:'9vw',marginTop:'4vh', direction:'rtl'}}>
+    <div style={{display:'flex', justifyContent:'space-around', marginRight:'4vw',marginTop:'-5vh', direction:'rtl'}}>
         {mproductslist5}
     </div>
-    <div style={{display:'flex', justifyContent:'space-around', marginLeft:'9vw',marginTop:'4vh', direction:'rtl'}}>
+    <div style={{display:'flex', justifyContent:'center',marginTop:'-5vh', direction:'rtl'}}>
         {mproductslist6}
     </div>
     </motion.div>}
