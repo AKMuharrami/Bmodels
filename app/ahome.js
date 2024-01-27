@@ -167,7 +167,7 @@ export default function Ahomee() {
                 
                 // />
               }
-                <a href="/ar/products" ><motion.h2
+                <a href="/products" ><motion.h2
                 initial="offscreen"
                 whileInView="onscreen"
                 viewport={{once:true, amount: 0.8}}
