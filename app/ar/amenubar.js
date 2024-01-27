@@ -14,16 +14,16 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import  Icon  from '@mdi/react';
-import {mdiCoffee } from '@mdi/js';
+import {mdiCubeOutline  } from '@mdi/js';
 import Link from 'next/link';
 const email = 
-    <a class="mailtoui" href='mailto: akmuharrami@gmail.com'>الإيميل</a>
-const whatsapp = <a href='https://wa.me/96896338791'>الواتسأب</a>
-const twitter = <a href='https://twitter.com/_alistiqamah'>التويتر</a>
-const instagram = <a href='https://www.instagram.com/odev_akmuh/'>الإنستجرام</a>
+    <a class="mailtoui" href='mailto: mm.alsharif.54@gmail.com'>الإيميل</a>
+const whatsapp = <a href='https://wa.me/96895455338'>الواتسأب</a>
+// const twitter = <a href='https://twitter.com/_alistiqamah'>التويتر</a>
+// const instagram = <a href='https://www.instagram.com/odev_akmuh/'>الإنستجرام</a>
 const pages = [{
   name:'منتجاتنا', route:'/ar/products'}, {name:'عنّي', route:'/ar/about'}, {name:'فارغة', route:'/ar/empty'}];
-const settings = [email, whatsapp, twitter, instagram];
+const settings = [email, whatsapp];
 
 
 function AresponsiveAppBar() {
@@ -46,15 +46,16 @@ function AresponsiveAppBar() {
   };
 
   return (
-    <AppBar position="static" style={{backgroundColor: '#0B0E13', position:'fixed', zIndex:'1', direction:'rtl'}}>
+    <AppBar position="static" style={{backgroundColor: 'rgb(20, 0, 60)', position:'fixed', zIndex:'1', direction:'rtl'}}>
       <Container maxWidth="xl">
         <Toolbar disableGutters >
-          <Icon path={mdiCoffee} style={{marginLeft:-10}}size={1} />
+          <Icon path={mdiCubeOutline } style={{marginLeft:-10}}size={1} />
           <Typography
             variant="h6"
             noWrap
             component="a"
             href="/ar"
+            className="cairo"
             sx={{
               mr: 2,
               display: { xs: 'none', md: 'flex' },
@@ -66,7 +67,7 @@ function AresponsiveAppBar() {
               marginLeft:'2vw'
             }}
           >
-              كيوي
+              مشاريع بلندر
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }} >
@@ -105,25 +106,26 @@ function AresponsiveAppBar() {
               ))}
             </Menu>
           </Box>
-          <AdbIcon  sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
+          {/* <AdbIcon  sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} /> */}
           <Typography
-          
+            className='cairo'
             variant="h6"
             noWrap
             component="a"
             href="/ar"
+            style={{marginLeft:'7%'}}
             sx={{
               mr: 2,
               display: { xs: 'flex', md: 'none' },
               flexGrow: 1,
               fontFamily: 'monospace',
-              fontWeight: 700,
-              letterSpacing: '.2rem',
+              fontWeight: 400,
+              letterSpacing: '0rem',
               color: 'inherit',
               textDecoration: 'none',
             }}
           >
-            كيوي
+            مشاريع بلندر
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
@@ -136,11 +138,11 @@ function AresponsiveAppBar() {
             ))}
           </Box>
           <Box>
-          <Link href='/'><Button style={{marginLeft:'1vw'}} >ENG</Button></Link>
+          {/* <Link href='/'><Button style={{marginLeft:'1vw'}} >ENG</Button></Link> */}
               </Box>
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="افتح الحسابات">
-                <label style={{cursor: "pointer", fontWeight: 400, fontSize: 19}} onClick={handleOpenUserMenu} >للتواصل </label>
+                <label className='cairo' style={{cursor: "pointer", fontWeight: 200, fontSize: 13}} onClick={handleOpenUserMenu} >للتواصل </label>
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
                 {/* <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" /> */}
               </IconButton>

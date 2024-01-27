@@ -3,7 +3,19 @@ import { Modal, Box, Typography } from "@mui/material";
 import { useMediaQuery } from "react-responsive";
 import ResponsiveAppBar from '../menubar';
 import {motion} from 'framer-motion'
+import { styled } from '@mui/material/styles';
 import Link from 'next/link';
+import * as React from 'react';
+import Button from '@mui/material/Button';
+import Dialog from '@mui/material/Dialog';
+import DialogActions from '@mui/material/DialogActions';
+import DialogContent from '@mui/material/DialogContent';
+import DialogContentText from '@mui/material/DialogContentText';
+import DialogTitle from '@mui/material/DialogTitle';
+import useMediaQueryy from '@mui/material/useMediaQuery';
+import IconButton from '@mui/material/IconButton';
+import CloseIcon from '@mui/icons-material/Close';
+import { useTheme } from '@mui/material/styles';
 let mproducts= [
     {
         id:0,
@@ -96,7 +108,31 @@ let products= [
         
         
                 ];
+
+
 export default function Productss() {
+    const [open, setOpen] = React.useState(false);
+    const theme = useTheme();
+    // const fullScreen = useMediaQueryy(theme.breakpoints.down('md'));
+    const BootstrapDialog = styled(Dialog)(({ theme }) => ({
+        '& .MuiDialogContent-root': {
+          padding: theme.spacing(2),
+        },
+        '& .MuiDialogActions-root': {
+          padding: theme.spacing(1),
+        },
+      }));
+
+      console.log(open)
+  
+    const handleClickOpen = () => {
+      setOpen(true);
+    };
+  
+    const handleClose = () => {
+      setOpen(false);
+    };
+  
     const isDesktopOrLaptop = useMediaQuery({
         query: '(min-width: 1224px)'
       })
@@ -151,15 +187,37 @@ export default function Productss() {
     )})
     let productslist = products.map((product) => { 
         return(
-        <Link key={product.id} href={`/products/${product.id}`}><button onClick={() => {
-            //   const bbb = new Promise ((resolve, reject) => {
-            //   setTimeout(() => {
-            //     resolve(n());
-                
-            //   }, 100)});
-            //   bbb.then ((val) => {handleskclick();})
-            //   .then (() => {n()})
-             }} style={{background:'rgb(255, 255, 255, 0)', border:'0', width:'10vw', height:'12vh', marginTop:65}}><h3 style={{background:'white',borderRadius:'25px',fontSize:"18px", height:'35vh',width:'18vw',textAlign:'center',lineHeight:2, paddingBottom:'2vh', paddingTop:'.0vh', zIndex:'1'}}><img src={product.image} alt='' style={{width:'18vw', height:'26vh',objectFit:'contain' }}></img>{product.name} <br></br>{product.price}</h3></button></Link>
+        // <Link key={product.id} href={`/products/${product.id}`}>
+            <button onClick={handleClickOpen}
+              style={{background:'rgb(255, 255, 255, 0)', border:'0', width:'10vw', height:'12vh', marginTop:65}}>
+
+         <BootstrapDialog
+        onClose={handleClose}
+        aria-labelledby="customized-dialog-title"
+        open={open}
+      >
+        <DialogTitle sx={{ m: 0, p: 2 }} id="customized-dialog-title">
+        {"Select an option:"}
+        </DialogTitle>
+        
+        <IconButton
+          aria-label="close"
+          onClick={handleClose}
+          sx={{
+            position: 'absolute',
+            right: 8,
+            top: 8,
+            color: (theme) => theme.palette.grey[500],
+          }}
+        >
+          <CloseIcon />
+        </IconButton>
+        <DialogContent>
+          <a href="/">Modal - 5 Omr</a> <br></br><br></br>
+          <a href="/">Modal with animation - 7 Omr</a>
+        </DialogContent>
+        </BootstrapDialog><h3 style={{background:'#4E3524',WebkitTextStroke: '.3  px black' , color:'white',borderRadius:'25px',fontSize:"18px", height:'35vh',width:'18vw',textAlign:'center',lineHeight:2, paddingBottom:'2vh', paddingTop:'.0vh', zIndex:'1'}}><img src={product.image} alt='' style={{width:'18vw', height:'26vh',objectFit:'contain'}}></img>{product.name} <br></br>{product.price}</h3></button>
+    //   </Link>
     )})
     let productslist1 = products1.map((product) => {
         return (
@@ -171,10 +229,10 @@ export default function Productss() {
             //   }, 100)});
             //   bbb.then ((val) => {handleskclick();})
             //   .then (() => {n()})
-             }} style={{background:'rgb(255, 255, 255, 0)', border:'0', width:'10vw', height:'12vh', marginTop:65}}><h3 style={{background:'white',borderRadius:'25px',fontSize:"18px", height:'35vh',width:'18vw',textAlign:'center',lineHeight:2, paddingBottom:'2vh', paddingTop:'.0vh', zIndex:'1'}}><img src={product.image} alt='' style={{width:'18vw', height:'26vh',objectFit:'contain' }}></img>{product.name} <br></br>{product.price}</h3></button></Link>
+             }} style={{background:'rgb(255, 255, 255, 0)', border:'0', width:'10vw', height:'12vh', marginTop:65}}><h3 style={{background:'#4E3524',WebkitTextStroke: '.3  px black', color:'white',borderRadius:'25px',fontSize:"18px", height:'35vh',width:'18vw',textAlign:'center',lineHeight:2, paddingBottom:'2vh', paddingTop:'.0vh', zIndex:'1'}}><img src={product.image} alt='' style={{width:'18vw', height:'26vh',objectFit:'contain' }}></img>{product.name} <br></br>{product.price}</h3></button></Link>
     )})
     return(
-    <div style={{background: '#0B0E13', width: "100%", paddingBottom:'28.5%', zIndex:0}}>
+    <div style={{background: '#997950', width: "100%", paddingBottom:'28.5%', zIndex:0}}>
     <ResponsiveAppBar></ResponsiveAppBar>
     {isDesktopOrLaptop &&<motion.div  initial={{ opacity: 0, scale: 0.5 }}
                   animate={{ opacity: 1, scale: 1 }}

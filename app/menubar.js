@@ -18,7 +18,7 @@ import {mdiCoffee} from '@mdi/js';
 import Link from 'next/link';
 const email = 
     <a class="mailtoui" href='mailto: akmuharrami@gmail.com'>Email</a>
-const whatsapp = <a href='https://wa.me/96896338791'>Whatsapp</a>
+const whatsapp = <a  href='https://wa.me/96896338791'>Whatsapp</a>
 const twitter = <a href='https://twitter.com/_alistiqamah'>Twitter</a>
 const instagram = <a href='https://www.instagram.com/odev_akmuh/'>Instagram</a>
 const pages = [{
@@ -46,7 +46,7 @@ function ResponsiveAppBar() {
   };
 
   return (
-    <AppBar position="static" style={{backgroundColor: '#0B0E13', position:'fixed', zIndex:'1'}}>
+    <AppBar position="static" style={{backgroundColor: '#4E3524', position:'fixed', zIndex:'1', color:''}}>
       <Container maxWidth="xl">
         <Toolbar disableGutters >
           <Icon path={mdiCoffee} style={{marginRight:5}}size={1} />
@@ -80,6 +80,7 @@ function ResponsiveAppBar() {
               <MenuIcon />
             </IconButton>
             <Menu
+            style={{textDecorationColor:'white'}}
               id="menu-appbar"
               anchorEl={anchorElNav}
               anchorOrigin={{
@@ -99,7 +100,7 @@ function ResponsiveAppBar() {
             >
               {pages.map((page) => (
                 <MenuItem key={page.name} >
-                  <Link href= {`${page.route}`} ><Button ><Typography textAlign="center" style={{color:'#0b0E13'}}>{page.name}</Typography></Button></Link>
+                  <Link  href= {`${page.route}`} ><Button ><Typography textAlign="center" style={{color:'#0b0E13', textDecoration:'none'}}>{page.name}</Typography></Button></Link>
                 </MenuItem>
               ))}
             </Menu>

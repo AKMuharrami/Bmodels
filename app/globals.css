@@ -6,6 +6,8 @@ body {
   overflow-x: hidden;
   padding: 0;
   margin: 0;
+  scroll-margin: 0;
+  color: #000;
 }
 
 
@@ -17,7 +19,7 @@ body {
 #pbody {
   --black: #000000;
   --ash-black: #222;
-  --white: #fafafa;
+  /* --white: #fafafa; */
   --sky: #00ccff;
   --green: #22dddd;
   --blue: #1300ff;
@@ -51,6 +53,7 @@ body {
   font-weight: 400;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
+  text-decoration-color: #2b1d14;
 }
 
 #h1,
@@ -130,7 +133,7 @@ code {
 
 #progress {
   position: relative;
-  top: 0px;
+  top: 20px;
   left: 20px;
   transform: rotate(-90deg);
 }
@@ -142,12 +145,12 @@ circle {
 }
 
 .bg {
-  stroke: var(--accent);
+  stroke: black;
   opacity: 0.3;
 }
 
 #progress .indicator {
-  stroke: var(--accent);
+  stroke: #140e06;
 }
 
 #pul {
@@ -171,6 +174,40 @@ circle {
   margin: 0 auto;
   margin-left: 5px;
 }
+
+#pul1 {
+  display: flex;
+  list-style: none;
+  height: 350px;
+  overflow-x: scroll;
+  padding: 20px 10px;
+  flex: 0 0 600px;
+  margin: 0 auto;
+  margin-left: 5px;
+}
+
+#pul2 {
+  display: flex;
+  list-style: none;
+  height: 150px;
+  overflow-x: scroll;
+  padding: 20px 10px;
+  flex: 0 0 600px;
+  margin: 0 auto;
+  margin-left: 5px;
+}
+
+#mul1 {
+  display: flex;
+  list-style: none;
+  height: 250px;
+  overflow-x: scroll;
+  padding: 20px 0px;
+  flex: 0 0 600px;
+  margin: 0 auto;
+  margin-left: 5px;
+}
+
 ::-webkit-scrollbar {
   height: 5px;
   width: 5px;
@@ -179,7 +216,7 @@ circle {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--accent);
+  background: #140e06;
   -webkit-border-radius: 1ex;
 }
 
@@ -189,6 +226,12 @@ circle {
 
 #pli {
   flex: 0 0 1100px;
+  background: var(--accent);
+  margin: 0 20px 0 0;
+  overflow: scroll; width: 1030;
+}
+#pli1 {
+  flex: 0 0 340px;
   background: var(--accent);
   margin: 0 20px 0 0;
   overflow: scroll; width: 1030;
@@ -228,9 +271,11 @@ h1{
 
 html, body {
 
-  padding: 0;
+  padding: 0px;
   
-  margin: 0;
+  margin: 0px;
+
+  border: 0px;
   
   }
 
@@ -364,4 +409,42 @@ main {
   opacity: 0.4;
   cursor: default;
   pointer-events: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+
+    --primary-glow: radial-gradient(rgba(119, 65, 3, 0.225), rgba(1, 65, 255, 0));
+    --secondary-glow: linear-gradient(
+      to bottom right,
+      rgba(70, 1, 1, 0),
+      rgba(77, 0, 0, 0.2),
+      rgba(108, 1, 1, 0.35)
+    );
+
+    --tile-start-rgb: 2, 13, 46;
+    --tile-end-rgb: 2, 5, 19;
+    --tile-border: conic-gradient(
+      #ffffff80,
+      #ffffff40,
+      #ffffff30,
+      #ffffff20,
+      #ffffff10,
+      #ffffff10,
+      #ffffff80
+    );
+
+    --callout-rgb: 0, 0, 0;
+    --callout-border-rgb: 08, 08, 08;
+    --card-rgb: 43, 29, 20;
+    --card-rgb1: 0, 0, 0;
+    --card-border-rgb: 00, 00, 00;
+  }
+}
+
+.cairo {
+  font-family: var(--font-cairo);
 }
