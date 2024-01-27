@@ -300,48 +300,48 @@ export default function Productss() {
       let mproductslist = mproducts.map((product) => { 
         return(
         // <Link key={product.id} href={`/products/${product.id}`}>
-          <button style={{background:'rgb(255, 255, 255, 0)', border:'0', width:'30vw', height:'12vh', marginTop:65}}><h3 className="cairo" style={{background:'rgba(0, 0, 20, 0.4)',WebkitTextStroke: '.3  px black' , color:'white',borderRadius:'25px',fontSize:"13px", height:'35vh',width:'40vw',textAlign:'center',lineHeight:2, paddingBottom:'1vh', paddingTop:'.0vh', zIndex:'1', marginTop:'4vh'}}><img src={product.image} alt='' style={{width:'40vw', height:'23vh',objectFit:'contain', marginBottom:'-3vh'}}></img>{product.name} <br></br><a style={{color:'darkcyan'}} href={`${product.staticc}`}>المجسم - 5 ريال</a> <br></br>
+          <button style={{background:'rgb(255, 255, 255, 0)', border:'0', width:'40vw', height:'40vh', marginTop:65, marginBottom:'-10%', marginLeft:'10%'}}><h3 className="cairo" style={{background:'rgba(0, 0, 20, 0.4)',WebkitTextStroke: '.3  px black' , color:'white',borderRadius:'25px',fontSize:"13px", height:'35vh',width:'35vw',textAlign:'center',lineHeight:2, paddingBottom:'1vh', paddingTop:'.0vh', zIndex:'1'}}><img src={product.image} alt='' style={{width:'30vw', height:'20vh',objectFit:'contain', marginBottom:'-7%'}}></img>{product.name} <br></br><a style={{color:'darkcyan'}} href={`${product.staticc}`}>المجسم - 5 ريال</a> <br></br>
           <a style={{color:'darkcyan'}} href={`${product.animationn}`}>المجسم مع الحركة - 7 ريال</a></h3>
           </button>
     )})
     let mproductslist1 = mproducts1.map((product) => { 
         return(
         // <Link key={product.id} href={`/products/${product.id}`}>
-          <button style={{background:'rgb(255, 255, 255, 0)', border:'0', width:'30vw', height:'12vh', marginTop:65}}><h3 className="cairo" style={{background:'rgba(0, 0, 20, 0.4)',WebkitTextStroke: '.3  px black' , color:'white',borderRadius:'25px',fontSize:"13px", height:'35vh',width:'40vw',textAlign:'center',lineHeight:2, paddingBottom:'1vh', paddingTop:'.0vh', zIndex:'1', marginTop:'16vh'}}><img src={product.image} alt='' style={{width:'40vw', height:'23vh',objectFit:'contain', marginBottom:'-3vh'}}></img>{product.name} <br></br><a style={{color:'darkcyan'}} href={`${product.staticc}`}>المجسم - 5 ريال</a> <br></br>
+          <button style={{background:'rgb(255, 255, 255, 0)', border:'0', width:'40vw', height:'40vh', marginTop:65, marginBottom:'-10%', marginLeft:'10%'}}><h3 className="cairo" style={{background:'rgba(0, 0, 20, 0.4)',WebkitTextStroke: '.3  px black' , color:'white',borderRadius:'25px',fontSize:"13px", height:'35vh',width:'35vw',textAlign:'center',lineHeight:2, paddingBottom:'1vh', paddingTop:'.0vh', zIndex:'1'}}><img src={product.image} alt='' style={{width:'30vw', height:'20vh',objectFit:'contain', marginBottom:'-7%'}}></img>{product.name} <br></br><a style={{color:'darkcyan'}} href={`${product.staticc}`}>المجسم - 5 ريال</a> <br></br>
           <a style={{color:'darkcyan'}} href={`${product.animationn}`}>المجسم مع الحركة - 7 ريال</a></h3>
           </button>
     )})
     let mproductslist2 = mproducts2.map((product) => { 
         return(
         // <Link key={product.id} href={`/products/${product.id}`}>
-          <button style={{background:'rgb(255, 255, 255, 0)', border:'0', width:'30vw', height:'12vh', marginTop:65}}><h3 className="cairo" style={{background:'rgba(0, 0, 20, 0.4)',WebkitTextStroke: '.3  px black' , color:'white',borderRadius:'25px',fontSize:"13px", height:'35vh',width:'40vw',textAlign:'center',lineHeight:2, paddingBottom:'1vh', paddingTop:'.0vh', zIndex:'1', marginTop:'28vh'}}><img src={product.image} alt='' style={{width:'40vw', height:'23vh',objectFit:'contain', marginBottom:'-3vh'}}></img>{product.name} <br></br><a style={{color:'darkcyan'}} href={`${product.staticc}`}>المجسم - 5 ريال</a> <br></br>
+          <button style={{background:'rgb(255, 255, 255, 0)', border:'0', width:'40vw', height:'40vh', marginTop:65, marginBottom:'-10%', marginLeft:'10%'}}><h3 className="cairo" style={{background:'rgba(0, 0, 20, 0.4)',WebkitTextStroke: '.3  px black' , color:'white',borderRadius:'25px',fontSize:"13px", height:'35vh',width:'35vw',textAlign:'center',lineHeight:2, paddingBottom:'1vh', paddingTop:'.0vh', zIndex:'1'}}><img src={product.image} alt='' style={{width:'30vw', height:'20vh',objectFit:'contain', marginBottom:'-7%'}}></img>{product.name} <br></br><a style={{color:'darkcyan'}} href={`${product.staticc}`}>المجسم - 5 ريال</a> <br></br>
           <a style={{color:'darkcyan'}} href={`${product.animationn}`}>المجسم مع الحركة - 7 ريال</a></h3>
           </button>
     )})
     let mproductslist3 = mproducts3.map((product) => { 
         return(
         // <Link key={product.id} href={`/products/${product.id}`}>
-          <button style={{background:'rgb(255, 255, 255, 0)', border:'0', width:'30vw', height:'12vh', marginTop:65}}><h3 className="cairo" style={{background:'rgba(0, 0, 20, 0.4)',WebkitTextStroke: '.3  px black' , color:'white',borderRadius:'25px',fontSize:"13px", height:'35vh',width:'40vw',textAlign:'center',lineHeight:2, paddingBottom:'1vh', paddingTop:'.0vh', zIndex:'1', marginTop:'40vh'}}><img src={product.image} alt='' style={{width:'40vw', height:'23vh',objectFit:'contain', marginBottom:'-3vh'}}></img>{product.name} <br></br><a style={{color:'darkcyan'}} href={`${product.staticc}`}>المجسم - 5 ريال</a> <br></br>
+          <button style={{background:'rgb(255, 255, 255, 0)', border:'0', width:'40vw', height:'40vh', marginTop:65, marginBottom:'-10%', marginLeft:'10%'}}><h3 className="cairo" style={{background:'rgba(0, 0, 20, 0.4)',WebkitTextStroke: '.3  px black' , color:'white',borderRadius:'25px',fontSize:"13px", height:'35vh',width:'35vw',textAlign:'center',lineHeight:2, paddingBottom:'1vh', paddingTop:'.0vh', zIndex:'1'}}><img src={product.image} alt='' style={{width:'30vw', height:'20vh',objectFit:'contain', marginBottom:'-7%'}}></img>{product.name} <br></br><a style={{color:'darkcyan'}} href={`${product.staticc}`}>المجسم - 5 ريال</a> <br></br>
           <a style={{color:'darkcyan'}} href={`${product.animationn}`}>المجسم مع الحركة - 7 ريال</a></h3>
           </button>
     )})
     let mproductslist4 = mproducts4.map((product) => { 
       return(
       // <Link key={product.id} href={`/products/${product.id}`}>
-        <button style={{background:'rgb(255, 255, 255, 0)', border:'0', width:'30vw', height:'12vh', marginTop:65}}><h3 className="cairo" style={{background:'rgba(0, 0, 20, 0.4)',WebkitTextStroke: '.3  px black' , color:'white',borderRadius:'25px',fontSize:"13px", height:'35vh',width:'40vw',textAlign:'center',lineHeight:2, paddingBottom:'1vh', paddingTop:'.0vh', zIndex:'1', marginTop:'52vh'}}><img src={product.image} alt='' style={{width:'40vw', height:'23vh',objectFit:'contain', marginBottom:'-3vh'}}></img>{product.name} <br></br><a style={{color:'darkcyan'}} href={`${product.staticc}`}>المجسم - 5 ريال</a> <br></br>
+        <button style={{background:'rgb(255, 255, 255, 0)', border:'0', width:'40vw', height:'40vh', marginTop:65, marginBottom:'-10%', marginLeft:'10%'}}><h3 className="cairo" style={{background:'rgba(0, 0, 20, 0.4)',WebkitTextStroke: '.3  px black' , color:'white',borderRadius:'25px',fontSize:"13px", height:'35vh',width:'35vw',textAlign:'center',lineHeight:2, paddingBottom:'1vh', paddingTop:'.0vh', zIndex:'1'}}><img src={product.image} alt='' style={{width:'30vw', height:'20vh',objectFit:'contain', marginBottom:'-7%'}}></img>{product.name} <br></br><a style={{color:'darkcyan'}} href={`${product.staticc}`}>المجسم - 5 ريال</a> <br></br>
         <a style={{color:'darkcyan'}} href={`${product.animationn}`}>المجسم مع الحركة - 7 ريال</a></h3>
         </button>
   )})
   let mproductslist5 = mproducts5.map((product) => { 
     return(
     // <Link key={product.id} href={`/products/${product.id}`}>
-      <button style={{background:'rgb(255, 255, 255, 0)', border:'0', width:'30vw', height:'12vh', marginTop:65}}><h3 className="cairo" style={{background:'rgba(0, 0, 20, 0.4)',WebkitTextStroke: '.3  px black' , color:'white',borderRadius:'25px',fontSize:"13px", height:'35vh',width:'40vw',textAlign:'center',lineHeight:2, paddingBottom:'0vh', paddingTop:'.0vh', zIndex:'1', marginTop:'64vh'}}><img src={product.image} alt='' style={{width:'40vw', height:'23vh',objectFit:'contain', marginBottom:'-3vh'}}></img>{product.name} <br></br><a style={{color:'darkcyan'}} href={`${product.staticc}`}>المجسم - 5 ريال</a></h3>
+      <button style={{background:'rgb(255, 255, 255, 0)', border:'0', width:'40vw', height:'40vh', marginTop:65, marginBottom:'-10%', marginLeft:'10%'}}><h3 className="cairo" style={{background:'rgba(0, 0, 20, 0.4)',WebkitTextStroke: '.3  px black' , color:'white',borderRadius:'25px',fontSize:"13px", height:'35vh',width:'35vw',textAlign:'center',lineHeight:2, paddingBottom:'0vh', paddingTop:'.0vh', zIndex:'1'}}><img src={product.image} alt='' style={{width:'30vw', height:'20vh',objectFit:'contain', marginBottom:'-7%'}}></img>{product.name} <br></br><a style={{color:'darkcyan'}} href={`${product.staticc}`}>المجسم - 5 ريال</a></h3>
       </button>
 )})
 let mproductslist6 = mproducts6.map((product) => { 
   return(
   // <Link key={product.id} href={`/products/${product.id}`}>
-    <button style={{background:'rgb(255, 255, 255, 0)', border:'0', width:'30vw', height:'12vh', marginTop:65}}><h3 className="cairo" style={{background:'rgba(0, 0, 20, 0.4)',WebkitTextStroke: '.3  px black' , color:'white',borderRadius:'25px',fontSize:"13px", height:'35vh',width:'40vw',textAlign:'center',lineHeight:2, paddingBottom:'0vh', paddingTop:'.0vh', zIndex:'1', marginTop:'76vh'}}><img src={product.image} alt='' style={{width:'40vw', height:'23vh',objectFit:'contain', marginBottom:'-3vh'}}></img>{product.name} <br></br><a style={{color:'darkcyan'}} href={`${product.staticc}`}>المجسم - 5 ريال</a> <br></br>
+    <button style={{background:'rgb(255, 255, 255, 0)', border:'0', width:'30vw', height:'40vh', marginTop:65, marginBottom:'-10%', marginLeft:'10%'}}><h3 className="cairo" style={{background:'rgba(0, 0, 20, 0.4)',WebkitTextStroke: '.3  px black' , color:'white',borderRadius:'25px',fontSize:"13px", height:'35vh',width:'35vw',textAlign:'center',lineHeight:2, paddingBottom:'0vh', paddingTop:'.0vh', zIndex:'1'}}><img src={product.image} alt='' style={{width:'30vw', height:'20vh',objectFit:'contain', marginBottom:'-7%'}}></img>{product.name} <br></br><a style={{color:'darkcyan'}} href={`${product.staticc}`}>المجسم - 5 ريال</a> <br></br>
     <a style={{color:'darkcyan'}} href={`${product.animationn}`}>المجسم مع الحركة - 7 ريال</a></h3>
     </button>
 )})
@@ -409,25 +409,25 @@ let mproductslist6 = mproducts6.map((product) => {
                     delay: .5,
                     ease: [0, 0.71, 0.2, 1.01]}}
                     style={{ }} >
-    <div style={{display:'flex', justifyContent:'space-around', marginLeft:'11vw', direction:'rtl'}}>
+    <div style={{display:'flex', justifyContent:'space-around', marginLeft:'9vw', direction:'rtl'}}>
         {mproductslist}
     </div>
-    <div style={{display:'flex', justifyContent:'space-around', marginLeft:'11vw', marginTop:'4vh', direction:'rtl'}}>
+    <div style={{display:'flex', justifyContent:'space-around', marginLeft:'9vw', marginTop:'4vh', direction:'rtl'}}>
         {mproductslist1}
     </div>
-    <div style={{display:'flex', justifyContent:'space-around', marginLeft:'11vw',marginTop:'4vh', direction:'rtl'}}>
+    <div style={{display:'flex', justifyContent:'space-around', marginLeft:'9vw',marginTop:'4vh', direction:'rtl'}}>
         {mproductslist2}
     </div>
-    <div style={{display:'flex', justifyContent:'space-around', marginLeft:'11vw',marginTop:'4vh', direction:'rtl'}}>
+    <div style={{display:'flex', justifyContent:'space-around', marginLeft:'9vw',marginTop:'4vh', direction:'rtl'}}>
         {mproductslist3}
     </div>
-    <div style={{display:'flex', justifyContent:'space-around', marginLeft:'11vw',marginTop:'4vh', direction:'rtl'}}>
+    <div style={{display:'flex', justifyContent:'space-around', marginLeft:'9vw',marginTop:'4vh', direction:'rtl'}}>
         {mproductslist4}
     </div>
-    <div style={{display:'flex', justifyContent:'space-around', marginLeft:'11vw',marginTop:'4vh', direction:'rtl'}}>
+    <div style={{display:'flex', justifyContent:'space-around', marginLeft:'9vw',marginTop:'4vh', direction:'rtl'}}>
         {mproductslist5}
     </div>
-    <div style={{display:'flex', justifyContent:'space-around', marginLeft:'11vw',marginTop:'4vh', direction:'rtl'}}>
+    <div style={{display:'flex', justifyContent:'space-around', marginLeft:'9vw',marginTop:'4vh', direction:'rtl'}}>
         {mproductslist6}
     </div>
     </motion.div>}
