@@ -3,7 +3,7 @@ import { useMediaQuery } from "react-responsive";
 import  {TypeAnimation} from 'react-type-animation';
 import { motion, AnimatePresence } from "framer-motion";
 // import { Helmet } from "react-helmet-async";
-import ResponsiveAppBar from '../menubar';
+import ResponsiveAppBar from '@/app/amenubar';
 export default function Teamm() {
     const isDesktopOrLaptop = useMediaQuery({
         query: '(min-width: 1224px)'
