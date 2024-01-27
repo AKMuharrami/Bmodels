@@ -229,7 +229,7 @@ let products= [
                         
                       {id: 11,
                         image:"https://drive.google.com/thumbnail?id=1nHXS2Fc0DnOfyDwv_UFRnsryVT8VpoFt",
-                        name:"بيت - 1",
+                        name:"بيت-1",
                         price:"5 Omr",
                         staticc:'house',
                         no:11
@@ -341,7 +341,7 @@ export default function Productss() {
 let mproductslist6 = mproducts6.map((product) => { 
   return(
   // <Link key={product.id} href={`/products/${product.id}`}>
-    <button style={{background:'rgb(255, 255, 255, 0)', border:'0', width:'30vw', height:'40vh', marginTop:65, marginBottom:'-10%', marginLeft:'10%'}}><h3 className="cairo" style={{background:'rgba(0, 0, 20, 0.4)',WebkitTextStroke: '.3  px black' , color:'white',borderRadius:'25px',fontSize:"13px", height:'35vh',width:'35vw',textAlign:'center',lineHeight:2, paddingBottom:'0vh', paddingTop:'.0vh', zIndex:'1'}}><img src={product.image} alt='' style={{width:'30vw', height:'20vh',objectFit:'contain', marginBottom:'-7%'}}></img>{product.name} <br></br><a style={{color:'darkcyan'}} href={`${product.staticc}`}>المجسم - 5 ريال</a> <br></br>
+    <button style={{background:'rgb(255, 255, 255, 0)', border:'0', width:'40vw', height:'40vh', marginTop:65, marginBottom:'-10%', marginLeft:'3%'}}><h3 className="cairo" style={{background:'rgba(0, 0, 20, 0.4)',WebkitTextStroke: '.3  px black' , color:'white',borderRadius:'25px',fontSize:"13px", height:'35vh',width:'35vw',textAlign:'center',lineHeight:2, paddingBottom:'0vh', paddingTop:'.0vh', zIndex:'1'}}><img src={product.image} alt='' style={{width:'30vw', height:'20vh',objectFit:'contain', marginBottom:'-7%'}}></img>{product.name} <br></br><a style={{color:'darkcyan'}} href={`${product.staticc}`}>المجسم - 5 ريال</a> <br></br>
     <a style={{color:'darkcyan'}} href={`${product.animationn}`}>المجسم مع الحركة - 7 ريال</a></h3>
     </button>
 )})
