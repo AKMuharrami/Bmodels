@@ -1,12 +1,11 @@
-import Productss from "./products";
+import Aproductss from "./aproducts";
 export const metadata = {
-  title: "We offer various Packages for website development",
-  description: "We offer 3 packages with an offer of monthly maintanace all within affordable prices in Omani rials.",
+  title: "نوفر باقات متعددة لتطوير المواقع",
+  description: "نوفر 3 باقات مع توفير خدمة عناية شهرية بأسعار معقولة بالريال العماني",
   alternates: {
-    canonical: '/products'
-  }, 
-  
+    canonical: '/ar/packages'
+  }
 };
-export default function Products() {
-  return(<Productss></Productss>)
-}
+export default function Aproducts() {
+  return(<Aproductss></Aproductss>)
+};

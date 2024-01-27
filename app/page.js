@@ -1,12 +1,11 @@
-import ResponsiveAppBar from './menubar';
-import Homee from "./home";
+import Ahomee from "./ahome";
 export const metadata = {
-  title: "KIWI Ceramics",
-  description: "KIWI is an omani owned business focused on creating customer-talored ceramic cups",
+  title: "كيوي للسيراميك",
+  description: "...",
   alternates: {
-    canonical: '/'
+    canonical: '/ar'
   }
 };
-export default function Home() {
-      return( <Homee></Homee>)
+export default function Ahome() {
+  return (<Ahomee></Ahomee>)
 };
