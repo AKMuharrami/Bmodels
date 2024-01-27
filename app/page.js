@@ -1,9 +1,9 @@
 import Ahomee from "./ahome";
 export const metadata = {
-  title: "كيوي للسيراميك",
+  title: "مشاريع بلندر",
   description: "...",
   alternates: {
-    canonical: '/ar'
+    canonical: '/'
   }
 };
 export default function Ahome() {
