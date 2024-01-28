@@ -6,6 +6,7 @@ export const metadata = {
     canonical: '/products'
   }
 };
+<meta name="google-site-verification" content="1OTDePO6El37W6srxvK42ceGwBMkgSsXdH0bnopHvSI" />
 export default function Aproducts() {
   return(<Aproductss></Aproductss>)
 };
