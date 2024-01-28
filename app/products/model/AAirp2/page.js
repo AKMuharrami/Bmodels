@@ -56,7 +56,7 @@ export default function ContactForm() {
         query: '(min-width: 1224px)'
       })
       const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
-    const [state, handleSubmit] = useForm("mvojvawp");
+    const [state, handleSubmit] = useForm("xkndokwr");
     if (state.succeeded) {
         handleredirect();
         return <Modal
@@ -96,15 +96,14 @@ export default function ContactForm() {
                                 <label for="Email" style={{color:'white', fontSize:'125%'}}>الإيميل </label>
                                 <input id="Email" required name="Email" type='email' style={{marginLeft:'3vw', marginRight:'1vw'}}></input>
                             </div>
-                            <h1></h1>
-                            {/* <br></br>
                             <br></br>
                             <div style={{display:'flex', justifyContent:'center'}}>
-                            <label For="Gloc" style={{color:'white', fontSize:'125%'}}>رابط الموقع (جوجل ميت إن وجد) </label>
-                            <input id="Gloc" name="Gloc" type="url" style={{ marginRight:'3vw',height:'2.5vh', marginLeft:'1vw'}}></input>
-                            <label For='City' style={{color:'white', fontSize:'125%'}}>الولاية </label>
-                            <input id='City' name="City" required type='text' style={{marginRight:'3vw', height:'2.5vh', marginLeft:'1vw'}}></input>
-                            </div> */}
+                            {/* <label For="Gloc" style={{color:'white', fontSize:'125%'}}>رابط الموقع (جوجل ميت إن وجد) </label> */}
+                            {/* <input id="Gloc" name="Gloc" type="url" style={{ marginRight:'3vw',height:'2.5vh', marginLeft:'1vw'}}></input> */}
+                            <label For='School' style={{color:'white', fontSize:'125%', marginRight:'-8%'}}>المدرسة </label>
+                            <input id='School' name="School" required type='text' style={{marginLeftt:'3vw', height:'2.5vh', marginRight:'1vw'}}></input>
+                            </div>
+                            <br></br>
                             {/* <br></br> */}
                             {/* <br></br>
                             <div style={{display:'flex', justifyContent:'center'}}>
@@ -142,10 +141,10 @@ export default function ContactForm() {
                             <div style={{display:'flex', justifyContent:'center'}}>
                             <label for="Email" style={{color:'white', fontSize:'100%'}}>الإيميل </label>
                             <input id="Email" name="Email" type='email'style={{marginLeft:'3vw', height:'2vh', width:'25vw', marginRight:'1vw'}}></input>
-                            {/* <label For='City' style={{color:'white', fontSize:'100%'}}>  City </label>
-                            <input id='City' required name="City" type='text' style={{marginRight:'3vw', height:'2vh', width:'11vw', marginLeft:'1vw'}}></input>
-                            <label For="Town" style={{color:'white', fontSize:'100%'}}>Town </label>
-                            <input type='text' required name="Town" id='Town' style={{marginRight:'3vw', height:'2vh', width:'11vw', marginLeft:'1vw'}}></input> */}
+                            <label For='School' style={{color:'white', fontSize:'100%'}}>  المدرسة </label>
+                            <input id='School' required name="School" type='text' style={{marginLeft:'3vw', height:'2vh', width:'11vw', marginRight:'1vw'}}></input>
+                            {/* <label For="Town" style={{color:'white', fontSize:'100%'}}>Town </label> */}
+                            {/* <input type='text' required name="Town" id='Town' style={{marginRight:'3vw', height:'2vh', width:'11vw', marginLeft:'1vw'}}></input> */}
                             </div>
                             <br></br>
                             {/* <div style={{display:'flex',justifyContent:'center'}}>
