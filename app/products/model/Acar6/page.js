@@ -88,7 +88,7 @@ export default function ContactForm() {
                         <br></br>
                         <form onSubmit={handleSubmit} >
                             <div style={{display:'flex', justifyContent:'center'}}>
-                                <input id='Prod' type="hidden" name="Prod" value="1" style={{marginLeft:'3vw', height:'2.5vh'}}></input>
+                                <input id='Prod' type="hidden" name="Prod" value="سيارة 6 - مع الحركة" style={{marginLeft:'3vw', height:'2.5vh'}}></input>
                                 <label  for="Name" style={{color:'white', fontSize:'125%'}}>الاسم </label>
                                 <input id='Name' type="text" required name="Name" style={{marginLeft:'3vw', height:'2.5vh', marginRight:'1vw'}}></input>
                                 <label for='Tel' style={{color:'white', fontSize:'125%'}}>الهاتف </label>
@@ -130,7 +130,7 @@ export default function ContactForm() {
                         <br></br>
                         <form onSubmit={handleSubmit} style={{marginTop:'-5%'}}>
                             <div style={{display:'flex', justifyContent:'space-evenly'}}>
-                                <input id='Prod' type="hidden" name="Prod" value="1" style={{marginLeft:'3vw', height:'2.5vh'}}></input>
+                                <input id='Prod' type="hidden" name="Prod" value="سيارة 6 - مع الحركة" style={{marginLeft:'3vw', height:'2.5vh'}}></input>
                                 <label for="Name" style={{color:'white', fontSize:'100%'}}>الاسم </label>
                                 <input id='Name' type="text" required name="Name" style={{marginLeft:'3vw', height:'2vh', width:'25vw', marginRight:'1vw'}}></input>
                                 <label for='Tel' style={{color:'white', fontSize:'100%'}}>الرقم </label>
