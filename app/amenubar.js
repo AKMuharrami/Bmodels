@@ -22,7 +22,7 @@ const whatsapp = <a href='https://wa.me/96895455338'>الواتسأب</a>
 // const twitter = <a href='https://twitter.com/_alistiqamah'>التويتر</a>
 const instagram = <a href='https://www.instagram.com/proo.ject_/'>الإنستجرام</a>
 const pages = [{
-  name:'منتجاتنا', route:'products'}, {name:'عنّي', route:'/about'}, {name:'فارغة', route:'/empty'}];
+  name:'منتجاتنا', route:'products'}, {name:'عنّي', route:'/about'}];
 const settings = [email, whatsapp, instagram];
 
 
